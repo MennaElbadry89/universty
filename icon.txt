@@ -1,0 +1,46 @@
+
+<i class="fa-solid fa-magnifying-glass"></i>    search
+
+<i class="fa-solid fa-xmark"></i>               close
+
+<i class="fa-solid fa-arrow-right"></i>         arrow
+
+<i class="fa-solid fa-caret-down"></i>          down
+
+<i class="fa-solid fa-sort-down"></i>           down
+
+<i class="fa-solid fa-phone-flip"></i>          phone
+
+<i class="fa-solid fa-envelope"></i>            mail
+
+<i class="fa-solid fa-location-dot"></i>       location
+
+<i class="fa-solid fa-x"></i>                  X
+
+<i class="fa-brands fa-instagram"></i>         instagram
+
+<i class="fa-brands fa-linkedin"></i>          linkedin
+
+<i class="fa-brands fa-tiktok"></i>            tiktok
+
+<i class="fas fa-quote-left"></i>              quote
+
+<i class="fa-solid fa-plus"></i>               plus
+
+<i class="fa-solid fa-minus"></i>              minus
+
+<i class="fa-solid fa-chevron-left"></i>       slide-left
+
+<i class="fa-solid fa-chevron-right"></i>      slide-right
+
+<i class="fa-solid fa-bars"></i>               bars
+
+<i class="fa-solid fa-bars-staggered"></i>     bars (nav)
+
+<i class="fa-classic fa-solid fa-book-open fa-fw"></i>
+
+<i class="fa-classic fa-solid fa-lightbulb fa-fw"></i>
+
+<i class="fa-classic fa-solid fa-handshake-angle fa-fw"></i>
+
+
