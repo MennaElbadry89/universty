@@ -1,29 +1,4 @@
-let C = [
-    {
-        imag : '../imaage/dtv.jpg',
-        a : 'Undergraduate Concentrations (CX)',
-        p : 'Explore our diverse range of undergraduate concentrations, designed to provide in-depth knowledge and specialized skills in your chosen field.',
 
-    },
-     {
-        imag : '../image/ei.jpg',
-        a : 'Graduate Programs',
-        p : 'KFUPM offers a diverse range of graduate programs meticulously designed to cater to the global demands and advancements of the modern world. ',
-
-    },
-     {
-        imag : '../image/center1.jpg',
-        a : 'Undergraduate Programs',
-        p : ' Our world-class education will empower you to achieve your academic goals and excel in today’s dynamic workplace.',
-
-    },
-     {
-        imag :  '../image/mx-programs-pic.jpg',
-        a : 'Master of Science (Project-Based) Programs',
-        p : 'Our world-class education will empower you to achieve your academic goals and excel in today’s dynamic workplace. ',
-
-    },
-]
 
 const plus = document.querySelectorAll('.fa-plus')
 const minus = document.querySelectorAll('.fa-minus')
@@ -179,8 +154,6 @@ function displayCard(){
     studyContainer.innerHTML = item
 
 }
-
-// displayCard()
 
 
 home.addEventListener('click', () =>{

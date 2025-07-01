@@ -312,10 +312,7 @@ nav .fa-bars-staggered:active ,nav .fa-xmark:active{
         position: relative;
         transition: .5s;
     }
-        /* nav .middle ul li .head{
-            padding: 30px 20px;
-            }
-  */
+
     nav .middle ul li .dropdown{
         width: 100%;
         position: absolute;
@@ -389,7 +386,7 @@ nav .E-services{
         width: 80vw;
         border: 1px solid black;
         position: absolute;
-        top: 78.5vh;
+        top: 78vh;
         z-index: 1;
         background-color: white;
         padding: 5px 0;
