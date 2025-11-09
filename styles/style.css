@@ -169,7 +169,7 @@ nav .middle ul .search:hover{
 .in-responsive {
     display: flex;
     display: none;
-    width: 75vw;
+    width: 80vw;
     padding: 30px;
     position: relative;
 
@@ -177,7 +177,7 @@ nav .middle ul .search:hover{
 .in-responsive input{
     width: 100%;
     height: 40px;
-    padding: 0 30px;
+    padding: 0 50px;
     cursor: pointer;
     border-radius: 5px;
     border: 1px solid rgb(220, 220, 220);
@@ -274,6 +274,7 @@ nav .E-services .head a {
 nav .E-services .dropdwon{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     color: black;
     border-radius: 10px;
@@ -318,35 +319,33 @@ nav .fa-bars-staggered:active ,nav .fa-xmark:active{
 }
 
 @media (max-width: 992px) {
-    nav {
-        position: relative;
-        transition: .5s;
-    }
+    
     
     nav .fa-bars-staggered {
         display: flex;
     }
     nav .middle{
-        z-index: 1;
+        position: relative;
+        background-color: var(--back-color);
+        z-index: 11;
     }
     nav .middle ul {
-    flex-direction: column;
-    display: none;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+       flex-direction: column;
+       display: none;
     }
 
     nav .middle ul li:last-child{
         order: -1;
-    }
-    nav .middle ul li{
-        position: relative;
-        transition: .5s;
     }
 
     nav .middle ul li .dropdown{
         width: 100%;
         flex-direction: column;
         z-index: 1000;
-       
     }
     nav .middle ul li:hover .dropdown{
     display: none;
@@ -371,12 +370,7 @@ nav .fa-bars-staggered:active ,nav .fa-xmark:active{
     display: flex;
     
      }
-     nav .middle{
-        background-color: var(--back-color);
-        position: absolute;
-        top: 100%;
-        z-index: 11;
-     }
+
       nav .middle ul li .dropdown{
         display: none;
         z-index: 200;
@@ -408,18 +402,29 @@ nav .middle ul .search .dropdown .fa-xmark{
 } 
 
 .in-responsive {
+    padding: 30px;
+    background-color: white;
     display: flex;
+    z-index: 10050;
+    right: 0;
+
 }
+
+/* nav {
+        position: relative;
+    } */
 
 nav .E-services{
         width: 80vw;
-        border: 1px solid black;
+        border: 1px solid rgb(129, 126, 126);
+        /* margin-top: 100vh; */
         position: absolute;
-        top: 78vh;
+        top: 650%;
+        right: 0px;
         z-index: 1;
         background-color: white;
-        padding: 5px 0;
-        border-radius: 5px;
+        padding: 30px 0;
+        border-radius: 0;
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -434,6 +439,11 @@ nav .E-services.hover .dropdown {
         text-align: center;
         display: none;
       }
+}
+
+@media (max-width: 576) {
+     
+    
 }
 
 
