@@ -42,8 +42,8 @@ function resetNav(){
 }
 
 $(window).resize(function(){    
-    if(window.innerWidth >= 990){
-       resetNav()
+  if(window.innerWidth >= 990){
+      resetNav()
    }else{
     $('.fa-bars-staggered').css({border : 'none'}).css({display : 'flex'})
     $('.fa-plus').css({display: 'flex'})
@@ -94,7 +94,6 @@ $('.fa-plus').click(function(e){
 
   $('nav .middle ul li .dropdown').not(this).not($('nav .middle ul .search .dropdown')).slideUp()
   $(this).parent().parent().next().slideDown()
-
 })
 
 $('.fa-minus').click(function(e){
@@ -103,8 +102,17 @@ $('.fa-minus').click(function(e){
   $(this).prev().css({display : 'flex'})
 
   $('nav .middle ul li .dropdown').not($('nav .middle ul .search .dropdown')).slideUp()
-
 })
+
+
+if(window.innerWidth < 990){
+  $('nav .services').click(function(){
+    $('nav .services .dropdwon').toggle()
+    
+  })
+}
+
+
 
 if(window.innerWidth <= 990){
   $('.stories .container .slide').addClass('slider')

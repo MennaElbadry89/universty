@@ -80,6 +80,7 @@ nav .middle ul li .head a i:not(:first-of-type){
     background-color: var(--main-color);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
  nav .middle ul li:hover .head {
@@ -309,6 +310,9 @@ nav .E-services .dropdwon a{
     font-weight: 200;
     opacity: .6;
 }
+nav .services{
+    display: none;
+}
 
 nav .fa-bars-staggered ,  nav .fa-xmark{
     display: flex;
@@ -381,12 +385,15 @@ nav .fa-bars-staggered:active ,nav .fa-xmark:active{
    font-weight: bold;
    font-size: 20px;
    text-decoration: none;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
    }
 .services .dropdwon {
     display: flex;
     flex-direction: column !important;
-    align-items: center;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
     gap: 20px;
     color: black;
     border-radius: 10px;
@@ -1067,7 +1074,6 @@ section{
     display: none;
     font-size: 24px;
     position: absolute;
-
 }
 .stories .container .fa-chevron-right{
     right: 0;
@@ -1483,8 +1489,8 @@ footer .bottom {
     font-size: 20px;
 }
 .mainpage .main-container > .card{
-    /* width: 100%;
-    height: 200px; */
+    width: 100%;
+    height: 200px;
     border-radius: 10px;
     display: flex;
     margin-bottom: 30px;
@@ -1492,10 +1498,9 @@ footer .bottom {
 
 }
 .mainpage .main-container > .card image{
-    width: 100px;
+    width: 50%;
     height: 100px;
-    /* overflow: hidden;
-    transition: .5s; */
+    overflow: hidden;
     border-radius: 10px;
 
 }
@@ -1504,6 +1509,7 @@ footer .bottom {
     height: 100%;
     border-radius: 10px;
 }
+
 .mainpage .main-container > .card .details{
    
     display: flex;
@@ -1514,27 +1520,27 @@ footer .bottom {
     background-color: var(--back-color);
     color: rgb(33, 39, 42);
 }
+
 .mainpage .main-container > .card .details h4{
     font-size: 20px;
     font-family: var(--body-font);
     color: rgb(33, 39, 42);
-
 }
+
 .mainpage .main-container > .card .details p{
     font-size: 16px;
     /* line-height: 30px; */
     color: rgb(33, 39, 42);
     font-family: var(--body-font);
-
-
-
 }
+
 .mainpage .main-container > .card .details button{
     border: none;
     padding: 5px 10px;
     background-color: transparent;
     color: var(--secondery-color);
 }
+
 .mainpage .main-container .card .details button a{
     color: var(--secondery-color);
     font-size: 16px;
@@ -1556,22 +1562,25 @@ footer .bottom {
     border-radius: 10px;
     background-color: white;
 }
+
 .mainpage .main-container .container .card .image{
     width: 300px;
     height: 200px;
     border-radius: 10px;
     overflow: hidden;
 }
+
 .mainpage .main-container .container .card .image img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
+
 .mainpage .main-container .container .card .details{
     background-color: white;
     height: 200px;
-
 }
+
 .mainpage .main-container .container .card .details a{
     text-decoration: none;
     color: var(--main-color);
@@ -1579,24 +1588,24 @@ footer .bottom {
     font-weight: 600;
     font-family: var(--body-font);
 }
+
 .mainpage .main-container .container .card .details p{
     font-size: 16px;  
-
 }
 
 .mainpage .main-container .container.about{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
+    gap: 20px;   
 }
-.mainpage .main-container .container.about .contain{
 
+.mainpage .main-container .container.about .contain{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2 , auto);
     gap: 10px;
 }
+
 .mainpage .main-container .container.about .contain .card{
     width: 250px;
     height: 250px;
@@ -1605,20 +1614,22 @@ footer .bottom {
     gap: 10px;
     border-radius: 10px;
     background-color: white;
-        padding-bottom: 0;
-
+    padding-bottom: 0;
 }
+
 .mainpage .main-container .container.about .contain .card .image{
     width: 250px;
     height: 150px;
     border-radius: 10px;
     overflow: hidden;
 }
+
 .mainpage .main-container .container.about .contain .card .image img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
+
 .mainpage .main-container .container.about .contain .card .details{
     display: flex;
     flex-direction: column;
@@ -1628,8 +1639,8 @@ footer .bottom {
     height: 50px;
     width: 250px;
     text-align: start;
-
 }
+
 .mainpage .main-container .container.about .contain .card .details a{
     text-decoration: none;
     color: rgb(33, 39, 42);
@@ -1637,6 +1648,7 @@ footer .bottom {
     font-weight: 600;
     font-family: var(--body-font);
 }
+
 .mainpage .main-container .container.about .contain .card .details button{
     padding: 0;
     background-color: transparent;
@@ -1644,8 +1656,8 @@ footer .bottom {
      color: var(--secondery-color);
     font-weight: 600;
     text-align: start;
-
 }
+
 .mainpage .main-container .container.about .contain .card .details button a{
      color: var(--secondery-color);
     font-size: 16px;  
@@ -1657,11 +1669,11 @@ footer .bottom {
     gap: 10px;
 }
 
-
 .mainpage .main-container .firstContainer .card{
     display: flex;
     gap: 20px;
 }
+
 .mainpage .main-container .firstContainer .card i{       
     font-size: 24px;
     color: var(--main-color);
@@ -1681,15 +1693,15 @@ footer .bottom {
     color: rgb(33, 39, 42);
     font-size: 15px;
 }
+
 .mainpage .main-container .container.about .firstContainer {
     width: 100%;
-    height: 100%;
-    
+    height: 100%;   
 }
+
 .mainpage .main-container .container.about .firstContainer iframe{
     width: 700px !important;
-    height: 400px !important;
-    
+    height: 400px !important;    
 }
 
 @media (max-width: 990px) {
@@ -1698,20 +1710,18 @@ footer .bottom {
     margin: 30px;
 }
 .home a{
-    font-size: 16px;
-   
+    font-size: 16px;   
 }
 
-
-    .mainpage{
-        flex-direction: column;
-        position: relative;
-        transition: .5s;
+ .mainpage{
+    flex-direction: column;
+    position: relative;
+    transition: .5s;
     padding: 0 20px;
    }
     
 
-    .mainpage .navigation {
+.mainpage .navigation {
     padding: 10px;
     height: 40px;
     width: 80vw;
@@ -1723,16 +1733,18 @@ footer .bottom {
     border: 1px solid var(--main-color);
     border-radius: 5px;
     font-weight: 600;
-    font-family: var(--body-font);
-   
+    font-family: var(--body-font);   
 }
- .mainpage .navigation i{
+
+.mainpage .navigation i{
     opacity: .5;
  }
+ 
 .mainpage .navigation:hover{
     background-color: var(--main-color);
     color: white;
 }
+
 .mainpage .home{
     width: 80vw;
     display: none;
@@ -1740,7 +1752,8 @@ footer .bottom {
     top: 0;
     margin: 0;
 }
-    .mainpage .main-container{
+
+.mainpage .main-container{
     width: 100%;
     gap: 10px;
     padding: 10px;
@@ -1748,39 +1761,40 @@ footer .bottom {
 }
 
 .mainpage .main-container > .card{
+    flex-direction: column;
     width: 100%;
     height: 100%;
-
 }
+
 .mainpage .main-container > .card .image{
     width: 100%;
-
+    height: 100%;
 }
+
 .mainpage .main-container > .card .image img{
     width: 100%;
-
+    height: 100%;
 }
 
  .mainpage .main-container article h3{    
     font-size: 18px !important;
-
  }
-
 
 .mainpage .main-container .container{
     grid-template-columns: 1fr;
-
 }
+
 .mainpage .main-container .container .card{
     width: 100%;
 }
+
 .mainpage .main-container .container .card .image{
     width: 100%;
 }
+
 .mainpage .main-container .container .card img{
     width: 100%;
 }
-
 
 .mainpage .main-container .container .card .details{
     width: 100%;
@@ -1812,20 +1826,17 @@ footer .bottom {
      width: 100%;
      padding-left: 0;
     height: 50%;
-
 }
+
 .mainpage .main-container .container.about .firstContainer{
     width: 80%;
     height: 80%;
 }
+
 .mainpage .main-container .container.about .firstContainer iframe{
-
     width: 400px;
-    height: 280px;
-    
+    height: 280px;   
 }
-
-
 
 .mainpage .main-container article span{
     font-size:16px;
@@ -1836,57 +1847,51 @@ footer .bottom {
  }
  .mainpage .main-container article ol{
     line-height: 1.5;
-
  }
  
 .mainpage .main-container article ol li b{
     font-size: 16px;
-
 }
+
 .mainpage .main-container article ol li p{
     font-size: 16px;
 }
 
-
 .mainpage .main-container > .card .details{
-
     padding: 10px;
     gap: 10px;
+} 
 
-}
 .mainpage .main-container > .card .details h4{
     font-size: 20px;
     font-family: var(--body-font);
     color: rgb(33, 39, 42);
-
 }
+
 .mainpage .main-container > .card .details p{
     font-size: 12px;
     /* line-height: 30px; */
     color: rgb(33, 39, 42);
     font-family: var(--body-font);
-
 }
+
 .mainpage .main-container .card .details button a{
     font-size: 12px;
 }
 
-
-
 .mainpage .main-container .container .card .details a{
     font-size: 20px;
 }
+
 .mainpage .main-container .container .card .details p{
     font-size: 12px;  
-
 }
 
 .mainpage .main-container .container.about{
-    gap: 10px;
-    
+    gap: 10px;  
 }
-.mainpage .main-container .container.about .contain{
 
+.mainpage .main-container .container.about .contain{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2 , auto);
@@ -1895,12 +1900,10 @@ footer .bottom {
 
 .mainpage .main-container .container.about .contain .card .details a{
     font-size: 16px;
-
 }
 
 .mainpage .main-container .container.about .contain .card .details button a{
     font-size: 12px;  
-
 }
 
 .mainpage .main-container .firstContainer{
@@ -1911,6 +1914,7 @@ footer .bottom {
 .mainpage .main-container .firstContainer .card{
     gap: 10px;
 }
+
 .mainpage .main-container .firstContainer .card i{       
     font-size: 20px;
 }
@@ -1918,6 +1922,7 @@ footer .bottom {
 .mainpage .main-container .firstContainer .card > div{
     gap: 5px;
 }
+
 .mainpage .main-container .firstContainer .card > div h4{
     font-size: 20px;
 }
@@ -1928,8 +1933,7 @@ footer .bottom {
 
 .mainpage .main-container .container.about .firstContainer iframe{
     width: 300px !important;
-    height: 250px !important;
-    
+    height: 250px !important;  
 }
 
 }

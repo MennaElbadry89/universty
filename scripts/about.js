@@ -115,7 +115,12 @@ $('.fa-minus').click(function(e){
   $('nav .middle ul li .dropdown').not($('nav .middle ul .search .dropdown')).slideUp()
 })
 
-
+if(window.innerWidth < 990){
+  $('nav .services').click(function(){
+    $('nav .services .dropdwon').toggle()
+    
+  })
+}
 
 const navigationMenu = document.querySelector('.mainpage .navigation')
 const home = document.querySelector('.mainpage .home')

@@ -101,7 +101,12 @@ $('.fa-minus').click(function(e){
 
 })
 
-
+if(window.innerWidth < 990){
+  $('nav .services').click(function(){
+    $('nav .services .dropdwon').toggle()
+    
+  })
+}
 
 const studyContainer = document.querySelector('.mainpage .main-container .container')
 const navigationMenu = document.querySelector('.mainpage .navigation')
